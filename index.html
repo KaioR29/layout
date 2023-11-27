@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Perfil</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0d0836;
+        }
+
+        /* Estilo do cabeçalho */
+        header {
+            background-color: #0d0836;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 30px;
+        }
+
+        /* Estilo do contêiner flexível */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around; /* Distribui os perfis ao redor do espaço disponível */
+            padding: 20px;
+        }
+
+        /* Estilo do perfil individual */
+        .profile {
+            flex: 1; /* Ocupa uma parte flexível do contêiner */
+            background-color: #191970;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilo da imagem do perfil */
+        .profile img {
+            width: 100%;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        /* Estilo do rodapé */
+        footer {
+            background-color: #000000;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed; /* Fixa o rodapé na parte inferior da tela */
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Meu Perfil</h1>
+    </header>
+
+    <!-- Contêiner de perfis -->
+    <div class="container">
+        <!-- Perfil 1 -->
+        <div class="profile">
+            <img src="b.jpg" alt="Minha Foto">
+            <h2>Sobre mim</h2></p>
+            <p>Meu nome e Kaio e é isso.
+        </div>
+
+        <!-- Perfil 2 -->
+        <div class="profile">
+            <img src="a.jpg" alt="Minha Foto 2">
+            <h2>interesses</h2>
+            <p>Gosto de ler, jogar e etc.</p>
+        </div>
+
+        <!-- Adicione mais perfis conforme necessário -->
+
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        &copy; 2023 Meu Perfil
+    </footer>
+
+</body>
+</html>
